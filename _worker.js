@@ -18,8 +18,6 @@ let addressesapi = [
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
@@ -39,12 +37,10 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
-	'proxyip.multacom.fxxk.dedyn.io',
-	'proxyip.vultr.fxxk.dedyn.io',
-	'my-telegram-is-herocore.onecf.eu.org',
+	'oracle.sosoorg.com',
 ];
 let CMproxyIPs = [
-	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
+	'proxyip.aliyun.fxxk.dedyn.io:HK','ProxyIP.US.fxxk.dedyn.io:US','ProxyIP.SG.fxxk.dedyn.io:SG','ProxyIP.JP.fxxk.dedyn.io:JP',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
 let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data'
 let BotToken ='';
